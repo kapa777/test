@@ -2,7 +2,7 @@
 // @name пахакир
 // @match https://catcasino809.com/
 // @match https://cat-casino-tck.top/
-// @match https://cat-casino-bkn.buzz/
+// @match https://cat-casino-bkn.buzz
 // @grant none
 // ==/UserScript==
 window.location.href = "https://catchthecatsix.com/sb2510e0d"
