@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name пахакир
-// @match https://www.catcasino809.com/
+// @match https://catcasino809.com/
 // @grant none
 // ==/UserScript==
 window.location.href = "https://catchthecatsix.com/sb2510e0d"
