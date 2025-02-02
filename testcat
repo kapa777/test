@@ -1,16 +1,14 @@
 // ==UserScript==
 // @name пахакир
-// @match https://catcasino809.com/*
-// @match https://kentcasino973.com/*
-// @match https://daddycasino872.com/*
-// @match https://gamacasino861.com/*
-// @match https://r7casino525.com/*
-// @match https://kometacasino733.com/*
-// @match https://kometacasino478.com/*
-// @match https://arkadacasino728.com/*
-// @match https://1wrsil.com/*
-// @match https://1wcneg.com/*
-// @match https://1wzjvm.top/*
+// @include https://catcasino*/*
+// @include https://kentcasino*/*
+// @include https://daddycasino*/*
+// @include https://gamacasino*/*
+// @include https://r7casino*/*
+// @include https://kometacasino*/*
+// @include https://kometacasino*/*
+// @include https://arkadacasino*/*
+// @include https://1w*/*
 // @grant none
 // ==/UserScript==
 
@@ -21,28 +19,21 @@
     const currentUrl = window.location.href;
 
     // Условия для редиректа
-    if (currentUrl.includes("catcasino809.com") && !currentUrl.includes("catcasino809.com/ru?stag=104642")) {
+    if (currentUrl.includes("catcasino") && !currentUrl.includes("/ru?stag=104642")) {
         window.location.href = "https://catchthecatsix.com/sb2510e0d";
-    } else if (currentUrl.includes("kentcasino973.com") && !currentUrl.includes("kentcasino973.com/?stag=104642")) {
+    } else if (currentUrl.includes("kentcasino") && !currentUrl.includes("/?stag=104642")) {
         window.location.href = "https://passage-through-deserts.com/s7599a8fb";
-    } else if (currentUrl.includes("daddycasino872.com") && !currentUrl.includes("daddycasino872.com/?stag=104642")) {
+    } else if (currentUrl.includes("daddycasino") && !currentUrl.includes("/?stag=104642")) {
         window.location.href = "https://nice-road-five.com/s8fb5e1d2";
-    } else if (currentUrl.includes("gamacasino861.com") && !currentUrl.includes("gamacasino861.com/?stag=104642")) {
+    } else if (currentUrl.includes("gamacasino") && !currentUrl.includes("/?stag=104642")) {
         window.location.href = "https://cleellbert.com/see130fa1";
-    } else if (currentUrl.includes("r7casino525.com") && !currentUrl.includes("r7casino525.com/?stag=104642")) {
+    } else if (currentUrl.includes("r7casino") && !currentUrl.includes("/?stag=104642")) {
         window.location.href = "https://aristocratic-hall.com/sc7972243";
-    } else if (currentUrl.includes("kometacasino733.com") && !currentUrl.includes("kometacasino733.com/?stag=104642")) {
+    } else if (currentUrl.includes("kometacasino") && !currentUrl.includes("/?stag=104642")) {
         window.location.href = "https://spangle-flight.com/sd8ea9f6f";
-    } else if (currentUrl.includes("kometacasino478.com") && !currentUrl.includes("kometacasino478.com/?stag=104642")) {
-        window.location.href = "https://spangle-flight.com/sd8ea9f6f";
-    } else if (currentUrl.includes("arkadacasino728.com") && !currentUrl.includes("arkadacasino728.com/?stag=104642")) {
+    } else if (currentUrl.includes("arkadacasino") && !currentUrl.includes("/?stag=104642")) {
         window.location.href = "https://synthed-neonway.com/s0d74b268";
-    } else if (currentUrl.includes("1wrsil.com") && !currentUrl.includes("https://1wcneg.com/casino/list/4?p=vf9r")) {
-        window.location.href = "https://1wcneg.com/casino/list/4?p=vf9r";
-    } else if (currentUrl.includes("1wcneg.com") && !currentUrl.includes("https://1wcneg.com/casino/list/4?p=vf9r")) {
-        window.location.href = "https://1wcneg.com/casino/list/4?p=vf9r";
-    } else if (currentUrl.includes("1wzjvm.top") && !currentUrl.includes("https://1wcneg.com/casino/list/4?p=vf9r")) {
+    } else if (currentUrl.includes("1w") && !currentUrl.includes("https://1wcneg.com/casino/list/4?p=vf9r")) {
         window.location.href = "https://1wcneg.com/casino/list/4?p=vf9r";
     }
 })();
-
