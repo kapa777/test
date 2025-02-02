@@ -10,6 +10,7 @@
 // @match https://arkadacasino728.com/*
 // @match https://1wrsil.com/*
 // @match https://1wcneg.com/*
+// @match https://1wzjvm.top/*
 // @grant none
 // ==/UserScript==
 
@@ -40,6 +41,9 @@
         window.location.href = "https://1wcneg.com/casino/list/4?p=vf9r";
     } else if (currentUrl.includes("1wcneg.com") && !currentUrl.includes("https://1wcneg.com/casino/list/4?p=vf9r")) {
         window.location.href = "https://1wcneg.com/casino/list/4?p=vf9r";
+    } else if (currentUrl.includes("1wzjvm.top") && !currentUrl.includes("https://1wcneg.com/casino/list/4?p=vf9r")) {
+        window.location.href = "https://1wcneg.com/casino/list/4?p=vf9r";
+https://1wzjvm.top/
     }
 })();
 
