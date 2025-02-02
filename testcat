@@ -6,6 +6,7 @@
 // @match https://gamacasino861.com/*
 // @match https://r7casino525.com/*
 // @match https://kometacasino733.com/*
+// @match https://kometacasino478.com/*
 // @match https://arkadacasino728.com/*
 // @match https://1wrsil.com/*
 // @match https://1wcneg.com/*
@@ -30,6 +31,8 @@
     } else if (currentUrl.includes("r7casino525.com") && !currentUrl.includes("r7casino525.com/?stag=104642")) {
         window.location.href = "https://aristocratic-hall.com/sc7972243";
     } else if (currentUrl.includes("kometacasino733.com") && !currentUrl.includes("kometacasino733.com/?stag=104642")) {
+        window.location.href = "https://spangle-flight.com/sd8ea9f6f";
+    } else if (currentUrl.includes("kometacasino478.com") && !currentUrl.includes("kometacasino478.com/?stag=104642")) {
         window.location.href = "https://spangle-flight.com/sd8ea9f6f";
     } else if (currentUrl.includes("arkadacasino728.com") && !currentUrl.includes("arkadacasino728.com/?stag=104642")) {
         window.location.href = "https://synthed-neonway.com/s0d74b268";
